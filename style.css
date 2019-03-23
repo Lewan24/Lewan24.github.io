@@ -1,0 +1,49 @@
+/* SELEKTORY: */
+body {
+	font-family: Courier New, Arial, Helvetica, Verdana;
+	font-size: 10pt;
+	color: white;
+	background-color: gray;
+	margin: 20mm;
+}
+
+ul, ul li {
+	text-align: center;
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	width: 200px;
+}
+
+ul a:link, ul a:visited {
+	display: block;
+	width: 160px;
+	text-decoration: none;
+	background-color: gray;
+	color: white;
+	padding: 8px;
+	border: 2px outset white;
+}
+
+ul a:hover {
+	border-style: inset;
+	padding: 7px 3px 3px 7px;
+}
+
+p {
+	text-align: justify;
+}
+
+pre, code {
+	font-size: 8pt;
+}
+
+h5 {
+	text-align: right;
+	font-size: 15pt;
+	color: white;
+}
