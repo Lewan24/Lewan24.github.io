@@ -25,16 +25,23 @@
   display: none;
 }
 
+@font-face {
+  font-family: mainFont;
+  src: url(mainFont.otf);
+}
+
 .mainBody {
   background-color: var(--main_background_color);
   color: var(--main_text_color);
   cursor: var(--default_cursor);
+  font-family: mainFont;
 }
 
 .contactBody {
   background-color: var(--contact_background_color);
   color: var(--contact_text_color);
   cursor: var(--default_cursor);
+  font-family: mainFont;
 }
 
 p {
