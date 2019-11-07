@@ -1,33 +1,13 @@
-<!doctype html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="description" content="Just programmer's site :)">
-	<title>Uncle Bob Site :D</title>
-	<link rel="Stylesheet" href="style.css">
-</head>
-<body bgcolor="gray" text="white">
-<h1 align="center"><font size="8">Welcome People!</font></h1>
-<br>
-<br>
-<h2 align="left"><font size="6">1.Hello</font></h2>
-<p align="left"><font size="5">It's my first site, so welcome :D </font></p>
-<a><font size="4"> My name is <b>Artur</b>, I am programmer and I am just <i>learning</i> <br>
-	something about site coding.	</font></a>
-<br>
-<br>
-<br>
+  <head>
+    <title>Main Page</title>
 
-<ul>
-<li><a href="AboutMe.html">Something about me</a></li>
-<li><a href="C++.html">C++</a></li>
-<li><a href="Python.html">Python</a></li>
-</ul>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" charset="utf-8"></script>
+  </head>
+  <body class="contactBody">
+    <h1 id="Powitanie" onclick="next('Powitanie','text1')">Witaj!</h1>
 
-<br>
-<br>
-<input type="button" value="Kliknij tutaj!" onclick="window.alert('To jest właśnie obsługa zdarzenia, jakim było kliknięcie myszką na przycisku.')">
-<br>
-<center><a href="https://github.com/Lewan24"><font size="4" color="blue">My github</font></a></center>
-</body>
+    <p id="text1" onclick="next('text1','Powitanie')">Kliknij mnie!</p>
+  </body>
 </html>

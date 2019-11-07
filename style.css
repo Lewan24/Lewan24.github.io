@@ -1,49 +1,46 @@
-/* SELEKTORY: */
-body {
-	font-family: Courier New, Arial, Helvetica, Verdana;
-	font-size: 10pt;
-	color: white;
-	background-color: gray;
-	margin: 20mm;
+:root {
+  --click_cursor: hand;
+  --default_cursor: cell;
+
+  --main_background_color: grey;
+  --main_text_color: white;
+
+  --contact_background_color: black;
+  --contact_text_color: green;
 }
 
-ul, ul li {
-	text-align: center;
-	display: block;
-	list-style: none;
-	margin: 0;
-	padding: 0;
+#Powitanie {
+  position: absolute;
+  top: 200px;
+  right: 500px;
+  cursor: var(--click_cursor);
+  display: block;
 }
 
-ul {
-	width: 200px;
+#text1 {
+  position: absolute;
+  top: 500px;
+  right: 1000px;
+  cursor: var(--click_cursor);
+  display: none;
 }
 
-ul a:link, ul a:visited {
-	display: block;
-	width: 160px;
-	text-decoration: none;
-	background-color: gray;
-	color: white;
-	padding: 8px;
-	border: 2px outset white;
+.mainBody {
+  background-color: var(--main_background_color);
+  color: var(--main_text_color);
+  cursor: var(--default_cursor);
 }
 
-ul a:hover {
-	border-style: inset;
-	padding: 7px 3px 3px 7px;
+.contactBody {
+  background-color: var(--contact_background_color);
+  color: var(--contact_text_color);
+  cursor: var(--default_cursor);
 }
 
 p {
-	text-align: justify;
+  font-size: 25;
 }
 
-pre, code {
-	font-size: 8pt;
-}
-
-h5 {
-	text-align: right;
-	font-size: 15pt;
-	color: white;
+h1 {
+  font-size: 35;
 }
