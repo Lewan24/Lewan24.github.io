@@ -1,5 +1,5 @@
 .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/57e8d2404257a814f6da8c7dda793678153bdee757596c48732f73d49448cc5cbb_1280.png");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("images/57e8d2404257a814f6da8c7dda793678153bdee757596c48732f73d49448cc5cbb_1280.png");
   background-position: 50% 50%;
 }
 
@@ -21,9 +21,9 @@
 }
 
 .u-section-1 .u-text-1 {
-  font-weight: 400;
   font-size: 4.5rem;
-  margin: 45px 20px 0;
+  font-weight: normal;
+  margin: 145px 20px 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -35,7 +35,8 @@
 .u-section-1 .u-line-1 {
   width: 102px;
   height: 10px;
-  transform-origin: left center;
+  transform-origin: left center 0px;
+  border-style: double;
   margin: 34px auto 45px;
 }
 
@@ -220,16 +221,16 @@
 }
 
 .u-section-3 .u-text-1 {
-  font-weight: 700;
   font-size: 2.25rem;
   width: 55px;
+  font-weight: 700;
   margin: -54px auto 0;
 }
 
 .u-section-3 .u-text-2 {
-  font-weight: 400;
   font-size: 3rem;
   animation-duration: 1000ms;
+  font-weight: normal;
   margin: 34px 21px 0;
 }
 
@@ -258,9 +259,9 @@
 }
 
 .u-section-3 .u-text-5 {
-  font-weight: 400;
   font-size: 3rem;
   animation-duration: 1000ms;
+  font-weight: normal;
   margin: 33px 21px 0;
 }
 
@@ -289,9 +290,9 @@
 }
 
 .u-section-3 .u-text-8 {
-  font-weight: 400;
   font-size: 3rem;
   animation-duration: 1000ms;
+  font-weight: normal;
   margin: 34px 21px 0;
 }
 
@@ -543,12 +544,12 @@
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 1021px;
+    min-height: 1110px;
   }
 
   .u-section-3 .u-layout-wrap-1 {
     margin-top: 33px;
-    margin-bottom: 3px;
+    margin-bottom: 50px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -675,9 +676,9 @@
 }
 
 .u-section-5 .u-text-1 {
-  font-weight: 400;
   font-size: 3rem;
   animation-duration: 1000ms;
+  font-weight: normal;
   margin: 18px 0 0;
 }
 
@@ -708,6 +709,8 @@
 
 .u-section-5 .u-text-3 {
   animation-duration: 1000ms;
+  font-size: 1.125rem;
+  font-weight: 700;
   margin: 0 auto;
 }
 
@@ -726,20 +729,25 @@
 
 .u-section-5 .u-text-4 {
   animation-duration: 1000ms;
+  font-size: 1.125rem;
+  font-weight: 700;
   margin: 0 auto;
 }
 
 .u-section-5 .u-text-5 {
   font-style: italic;
-  font-weight: 700;
   animation-duration: 1000ms;
+  font-weight: 700;
+  font-size: 1.125rem;
   margin: 77px auto 0;
 }
 
 .u-section-5 .u-btn-1 {
-  background-image: none;
+  border-style: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   font-weight: 700;
-  font-size: 0.875rem;
+  font-size: 1rem;
   margin: 123px auto 60px;
 }
 
@@ -808,7 +816,7 @@
   }
 
   .u-section-5 .u-btn-1 {
-    margin-top: 55px;
+    margin-top: 20px;
   }
 }
 
@@ -861,7 +869,7 @@
 
 @media (max-width: 575px) {
   .u-section-5 .u-sheet-1 {
-    min-height: 1072px;
+    min-height: 1115px;
   }
 
   .u-section-5 .u-group-1 {
@@ -907,6 +915,13 @@
   }
 }
 
+@media (max-width: 767px) {
+  .u-section-6 .u-image-1 {
+    margin-top: -100px;
+    margin-bottom: 57px;
+  }
+}
+
 @media (max-width: 575px) {
   .u-section-6 .u-image-1 {
     margin-top: -87px;
@@ -932,9 +947,9 @@
 }
 
 .u-section-7 .u-text-1 {
-  font-weight: 400;
   font-size: 3rem;
   animation-duration: 1000ms;
+  font-weight: 700;
   margin: 0 10px;
 }
 
@@ -954,8 +969,8 @@
 }
 
 .u-section-7 .u-text-2 {
-  font-weight: 400;
   animation-duration: 1000ms;
+  font-weight: 700;
   margin: -50px 0 14px 121px;
 }
 
@@ -971,8 +986,8 @@
 }
 
 .u-section-7 .u-text-3 {
-  font-weight: 400;
   animation-duration: 1000ms;
+  font-weight: 700;
   margin: -53px 0 17px 121px;
 }
 
@@ -988,8 +1003,8 @@
 }
 
 .u-section-7 .u-text-4 {
-  font-weight: 400;
   animation-duration: 1000ms;
+  font-weight: 700;
   margin: -50px 0 14px 121px;
 }
 
@@ -1005,8 +1020,8 @@
 }
 
 .u-section-7 .u-text-5 {
-  font-weight: 400;
   animation-duration: 1000ms;
+  font-weight: 700;
   margin: -50px 0 14px 121px;
 }
 
@@ -1309,9 +1324,9 @@
 }
 
 .u-section-9 .u-text-1 {
-  font-weight: 700;
   width: 550px;
   animation-duration: 1000ms;
+  font-weight: 700;
   margin: 55px auto 0;
 }
 
@@ -1336,8 +1351,8 @@
 .u-section-9 .u-btn-1 {
   border-style: none;
   letter-spacing: 1px;
-  font-weight: 700;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 @media (max-width: 767px) {
