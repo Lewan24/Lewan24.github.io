@@ -43,7 +43,6 @@
 
 .u-section-2 .u-group-1 {
   min-height: 273px;
-  height: auto;
   margin: 19px auto 0 0;
 }
 
@@ -228,7 +227,6 @@
 
 .u-section-4 .u-group-1 {
   min-height: 1192px;
-  height: auto;
   margin-top: 22px;
   margin-bottom: 22px;
   animation-duration: 1000ms;
@@ -354,10 +352,10 @@
 }
 
 .u-section-6 .u-group-1 {
-  min-height: 809px;
-  height: auto;
+  min-height: 790px;
   margin-top: 19px;
-  margin-bottom: 0;
+  margin-bottom: 19px;
+  height: auto;
 }
 
 .u-section-6 .u-container-layout-1 {
@@ -431,10 +429,4 @@
   .u-section-6 .u-gallery-1 {
     width: 320px;
   }
-}.u-section-7 {
-  background-image: linear-gradient(#332929, black);
-}
-
-.u-section-7 .u-sheet-1 {
-  min-height: 36px;
 }
