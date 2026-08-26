@@ -21,19 +21,29 @@ const PROJECTS = [
     fn: 'Open_Project("HexoraIT")',
     tag: 'v1.0 · self-hosted',
     desc: 'Modern documentation platform designed for IT teams. Organizes infrastructure knowledge, procedures, and technical documentation in a structured, maintainable way.',
-    stack: ['C#', '.NET', 'Blazor', 'SQL Server'],
+    stack: ['C#', '.NET 10', 'React', 'Vite', 'MySql'],
     color: '#ff0099',
     href: 'https://github.com/Lewan24/HexoraIT',
-    status: 'active',
+    status: 'stable',
   },
   {
     name: 'OctoBackup',
     fn: 'Open_Project("OctoBackup")',
     tag: 'v1.0 · self-hosted',
     desc: 'Backup management application for administrators. Manages backup jobs for unlimited servers, databases, and SSH tunnels with scheduling and automation.',
-    stack: ['C#', '.NET', 'PostgreSQL', 'Docker'],
-    color: '#8a2387',
+    stack: ['C#', '.NET 9', 'PostgreSQL', 'Docker'],
+    color: '#d438ce',
     href: 'https://github.com/Lewan24/OctoBackup',
+    status: 'stable',
+  },
+  {
+    name: 'NodexMesh',
+    fn: 'Open_Project("NodexMesh")',
+    tag: 'v1.0 · self-hosted',
+    desc: 'Free milanote alternative, basicly similar functionallities, but with better look, customizable kanbans and demo to try on my Github.',
+    stack: ['React', 'Vite', 'PostgreSQL', 'Docker', '.NET 10', 'C#'],
+    color: '#a0ad3d',
+    href: 'https://github.com/Lewan24/NodexMesh',
     status: 'active',
   },
   {
@@ -44,16 +54,16 @@ const PROJECTS = [
     stack: ['C#', '.NET', 'Windows API', 'HTML'],
     color: '#f27121',
     href: 'https://github.com/Lewan24/WindowsAnalysisTool',
-    status: 'stable',
+    status: 'active',
   },
 ]
 
 const ROADMAP = [
   { item: 'Master Degree in Cybersecurity', status: 'in_progress' },
   { item: 'Reverse Engineering', status: 'in_progress' },
+  { item: 'CompTIA Security+', status: 'planned' },
   { item: 'Web Application Security', status: 'in_progress' },
   { item: 'IT Infrastructure Security', status: 'in_progress' },
-  { item: 'CompTIA Security+', status: 'planned' },
   { item: 'Advanced .NET Architecture', status: 'in_progress' },
   { item: 'High-Performance APIs', status: 'in_progress' },
 ]
@@ -239,8 +249,9 @@ export default function App() {
           {/* Stats row */}
           <div className="stats-grid" style={{ marginTop: '4rem', background: '#36255C33', borderRadius: 8, overflow: 'hidden', border: '1px solid #36255C44' }}>
             {[
-              { val: '3+', label: 'years .NET' },
-              { val: '3', label: 'main projects' },
+              { val: '4+', label: 'years .NET and IT' },
+              { val: '8', label: 'main projects' },
+              { val: '50+', label: 'public repos' },
               { val: '∞', label: 'automation tools' },
               { val: 'MSc', label: 'cybersecurity' },
             ].map(({ val, label }) => (
@@ -285,7 +296,7 @@ export default function App() {
 
       {/* ─── PROJECTS ─── */}
       <section id="projects" className="section-pad" style={{ position: 'relative', zIndex: 1 }}>
-        <div style={{ maxWidth: 1100, margin: '0 auto' }}>
+        <div style={{ maxWidth: 1400, margin: '0 auto' }}>
           <SectionHeader fn="listProjects()" label="03 // PROJECTS" />
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.2rem', marginTop: '2.5rem' }}>
             {PROJECTS.map(project => (
